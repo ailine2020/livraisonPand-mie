@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#fefbd8;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: rgb(169, 169, 169);
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: #282828;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px;
+}
+main {
+    padding-bottom: 100px;
+    margin-top: 100px;
+    width: 80%;
+    /* position: relative; */
+}
+
+#pix {
+    background-image: url(./img/uber-eats.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    right: 30px;
+    top: 450px;
+    border: 1px solid #282828;
+}
+
+#infos {
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    top: 450px;
+    right: 30px;
+    border: 1px solid #282828;
+}
+
+
+#input {
+    width: 200px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    background: #ccc;
+    padding: 20px
+}
+
+h2 {
+    color: #282828;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    color: #222222;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+p {
+    margin-top: 20px;
+    color: #222222;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+    font-size: 25px;
+    color: #282828;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 15px;
+    color: chocolate;
+    background-color: beige;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+ul {    
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+li {
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #282828;
+    font-weight: 400;
+    list-style: none;
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    background: darkgray;
+    height: 120px;
+    clear: both;
+}
+
+h4 {
+    padding-top: 50px;
+    text-align: center;
+}

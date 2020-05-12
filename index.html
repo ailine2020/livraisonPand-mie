@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraison Paris Pandémie</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="livraison2.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <figure class="logo"><img src="./img/logo.svg" alt="logo" width="300" height="200"></figure>
+        <h1>Livraison Paris Pandémie</h1>
+        <p>Permettre aux parisiens fragiles ou isolés de limiter leurs déplacements.</p>
+        <input class="triType" type="radio" value="type" name="type-tri" >
+        <label for="triType">Recherche par Type</label>
+        <input class="triNom" type="radio" value="nom" name="type-tri" checked>
+        <label for="type-tri">Recherche par Nom</label>
+        <input type="text" id="input" placeholder="Recherche par type">
+    </header>
+    <main>
+        <figure id="pix"></figure>
+        <ul id="list"></ul>
+        <div id="infos" class="is-hidden"></div>
+    </main>
+    <footer>
+<h4>L'équipe Fennec - 2020</h4>
+    </footer>
+</body>
+
+</html>
